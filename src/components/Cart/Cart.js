@@ -11,7 +11,7 @@ export default function Cart(props) {
     </ul>
   );
   return (
-    <Modal onClickClose={props.onClickClose}>
+    <Modal onClickBackdrop={props.onClickClose}>
       {cartItems}
       <div className={classes.total}>
         <span>Total Amount</span>
